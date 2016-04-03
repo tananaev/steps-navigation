@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Steps Navigation</string>
+    <string name="info_select_location">Long press on map to set current location</string>
+    <string name="info_navigation">Point your phone in the direction you are moving</string>
+</resources>
