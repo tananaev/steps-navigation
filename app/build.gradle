@@ -10,8 +10,11 @@ android {
         targetSdkVersion 24
         versionCode 3
         versionName "1.2"
+        multiDexEnabled = true
     }
-
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -21,7 +24,8 @@ android {
 }
 
 dependencies {
+    compile 'com.android.support:multidex:1.0.1'
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support:design:24.0.0'
-    compile 'com.google.android.gms:play-services:9.0.2'
+    compile 'com.google.android.gms:play-services:9.2.0'
 }
