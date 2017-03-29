@@ -1,6 +1,6 @@
 # Steps Navigation
 
-[![](https://play.google.com/intl/en_us/badges/images/badge_new.png)](https://play.google.com/store/apps/details?id=com.tananaev.stepsnavigation)
+[![Get it on Google Play](http://www.tananaev.com/badges/google-play.svg)](https://play.google.com/store/apps/details?id=com.tananaev.stepsnavigation)
 
 Android app that uses sensors (steps and compass) to calculate location without GPS.
 
