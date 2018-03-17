@@ -1,31 +1,21 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         applicationId "com.tananaev.stepsnavigation"
         minSdkVersion 19
-        targetSdkVersion 24
-        versionCode 4
-        versionName "1.3"
-        multiDexEnabled = true
-    }
-    dexOptions {
-        javaMaxHeapSize "4g"
-    }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt')
-        }
+        targetSdkVersion 27
+        versionCode 5
+        versionName "1.4"
     }
 }
 
 dependencies {
-    compile 'com.android.support:multidex:1.0.1'
-    compile 'com.android.support:appcompat-v7:24.0.0'
-    compile 'com.android.support:design:24.0.0'
-    compile 'com.google.android.gms:play-services:9.2.0'
+    compile 'com.android.support:multidex:1.0.3'
+    compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support:design:27.1.0'
+    compile 'com.google.android.gms:play-services-maps:11.8.0'
 }
